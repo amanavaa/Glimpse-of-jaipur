@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    line-height: 1.4;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+body{
+    font-size: 150%;
+    /* background-color:rgb(235, 235, 186); */
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+    padding-top:10px ;
+    }
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li i{
+    font-size: 25px;
+  
+}
+nav ul li:hover{
+    border-bottom: 1px solid rgb(134, 45, 75);
+  
+}
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.all img{
+    width: 100%;
+
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 15px;
+    /* margin: 25px 0; */
+}
+.all .small{
+    display: flex;
+    gap: 1rem;
+}
+.line{
+    border: 1px solid grey;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+.read a{
+    text-decoration: none;
+    color: black;
+
+}
+.all .guide{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.all .loction{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem ;
+    align-items: center;
+  
+}
+.all .loction i{
+    font-size: 1.5rem;
+}
+.contact__us{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.contact-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+  
+}
+ul li{
+list-style: none;
+text-transform: capitalize;
+}
+footer{
+    border-top: 0.3px solid rgb(217, 213, 213);
+}
+.last{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.last ul li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+   
+
+}
+.last ul{
+    display: flex;
+    gap: 1rem;
+
+}
+@media screen and (max-width:600px){
+    nav{
+        max-width: 550px;
+        margin: 0 auto;
+    }
+    main{
+        max-width: 550px;
+        margin: 0 auto;
+    }
+    
+}
